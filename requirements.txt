@@ -1,0 +1,10 @@
+accelerate
+datasets
+matplotlib
+peft
+scikit-learn
+torch
+torchvision
+transformers
+trl
+wandb

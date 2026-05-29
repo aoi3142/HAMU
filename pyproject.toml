@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hamu"
+version = "0.1.0"
+description = "Hardness-aware multi-objective unlearning"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "accelerate",
+  "datasets",
+  "matplotlib",
+  "peft",
+  "scikit-learn",
+  "torch",
+  "torchvision",
+  "transformers",
+  "trl",
+  "wandb",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["hamu*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
