@@ -3,8 +3,9 @@
 Code for **How Hard Can It Be? Hardness-Aware Multi-Objective Unlearning**
 (ICML 2026).
 
-**Authors:** Jiangwei Chen*, Xinyuan Niu*, Rachael Hwee Ling Sim,
-Zhengyuan Liu, Nancy F. Chen, Bryan Kian Hsiang Low
+**Authors:** Jiangwei Chen*, Xinyuan Niu*, Rachael Hwee Ling Sim, Zhengyuan Liu, Nancy F. Chen, Bryan Kian Hsiang Low
+
+[ArXiv](https://arxiv.org/abs/2606.02119)
 
 ![Alt text](https://raw.githubusercontent.com/aoi3142/HAMU/main/images/hardness_diagram.svg "")
 
